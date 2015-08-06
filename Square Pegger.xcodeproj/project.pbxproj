@@ -14,6 +14,7 @@
 		BBF3D7CF1B73DC260097002E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF3D7CE1B73DC260097002E /* Images.xcassets */; };
 		BBF3D7D21B73DC260097002E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF3D7D01B73DC260097002E /* LaunchScreen.xib */; };
 		BBF3D7DE1B73DC260097002E /* Square_PeggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7DD1B73DC260097002E /* Square_PeggerTests.m */; };
+		BBF3D7EC1B73FEF10097002E /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7EB1B73FEF10097002E /* ARView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BBF3D7D71B73DC260097002E /* Square PeggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square PeggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF3D7DC1B73DC260097002E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF3D7DD1B73DC260097002E /* Square_PeggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square_PeggerTests.m; sourceTree = "<group>"; };
+		BBF3D7EA1B73FEF10097002E /* ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARView.h; sourceTree = "<group>"; };
+		BBF3D7EB1B73FEF10097002E /* ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BBF3D7CE1B73DC260097002E /* Images.xcassets */,
 				BBF3D7D01B73DC260097002E /* LaunchScreen.xib */,
 				BBF3D7C11B73DC260097002E /* Supporting Files */,
+				BBF3D7EA1B73FEF10097002E /* ARView.h */,
+				BBF3D7EB1B73FEF10097002E /* ARView.m */,
 			);
 			path = "Square Pegger";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF3D7CA1B73DC260097002E /* ViewController.m in Sources */,
+				BBF3D7EC1B73FEF10097002E /* ARView.m in Sources */,
 				BBF3D7C71B73DC260097002E /* AppDelegate.m in Sources */,
 				BBF3D7C41B73DC260097002E /* main.m in Sources */,
 			);

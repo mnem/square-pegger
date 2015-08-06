@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "ARView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet ARView *arView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.arView start];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF3D7C41B73DC260097002E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7C31B73DC260097002E /* main.m */; };
+		BBF3D7C71B73DC260097002E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7C61B73DC260097002E /* AppDelegate.m */; };
+		BBF3D7CA1B73DC260097002E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7C91B73DC260097002E /* ViewController.m */; };
+		BBF3D7CD1B73DC260097002E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF3D7CB1B73DC260097002E /* Main.storyboard */; };
+		BBF3D7CF1B73DC260097002E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF3D7CE1B73DC260097002E /* Images.xcassets */; };
+		BBF3D7D21B73DC260097002E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF3D7D01B73DC260097002E /* LaunchScreen.xib */; };
+		BBF3D7DE1B73DC260097002E /* Square_PeggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF3D7DD1B73DC260097002E /* Square_PeggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBF3D7D81B73DC260097002E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBF3D7B61B73DC260097002E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF3D7BD1B73DC260097002E;
+			remoteInfo = "Square Pegger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBF3D7BE1B73DC260097002E /* Square Pegger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Square Pegger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF3D7C21B73DC260097002E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF3D7C31B73DC260097002E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBF3D7C51B73DC260097002E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBF3D7C61B73DC260097002E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBF3D7C81B73DC260097002E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBF3D7C91B73DC260097002E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBF3D7CC1B73DC260097002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBF3D7CE1B73DC260097002E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBF3D7D11B73DC260097002E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBF3D7D71B73DC260097002E /* Square PeggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square PeggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF3D7DC1B73DC260097002E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF3D7DD1B73DC260097002E /* Square_PeggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square_PeggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF3D7BB1B73DC260097002E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3D7D41B73DC260097002E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF3D7B51B73DC260097002E = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7C01B73DC260097002E /* Square Pegger */,
+				BBF3D7DA1B73DC260097002E /* Square PeggerTests */,
+				BBF3D7BF1B73DC260097002E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF3D7BF1B73DC260097002E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7BE1B73DC260097002E /* Square Pegger.app */,
+				BBF3D7D71B73DC260097002E /* Square PeggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF3D7C01B73DC260097002E /* Square Pegger */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7C51B73DC260097002E /* AppDelegate.h */,
+				BBF3D7C61B73DC260097002E /* AppDelegate.m */,
+				BBF3D7C81B73DC260097002E /* ViewController.h */,
+				BBF3D7C91B73DC260097002E /* ViewController.m */,
+				BBF3D7CB1B73DC260097002E /* Main.storyboard */,
+				BBF3D7CE1B73DC260097002E /* Images.xcassets */,
+				BBF3D7D01B73DC260097002E /* LaunchScreen.xib */,
+				BBF3D7C11B73DC260097002E /* Supporting Files */,
+			);
+			path = "Square Pegger";
+			sourceTree = "<group>";
+		};
+		BBF3D7C11B73DC260097002E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7C21B73DC260097002E /* Info.plist */,
+				BBF3D7C31B73DC260097002E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBF3D7DA1B73DC260097002E /* Square PeggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7DD1B73DC260097002E /* Square_PeggerTests.m */,
+				BBF3D7DB1B73DC260097002E /* Supporting Files */,
+			);
+			path = "Square PeggerTests";
+			sourceTree = "<group>";
+		};
+		BBF3D7DB1B73DC260097002E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3D7DC1B73DC260097002E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF3D7BD1B73DC260097002E /* Square Pegger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF3D7E11B73DC260097002E /* Build configuration list for PBXNativeTarget "Square Pegger" */;
+			buildPhases = (
+				BBF3D7BA1B73DC260097002E /* Sources */,
+				BBF3D7BB1B73DC260097002E /* Frameworks */,
+				BBF3D7BC1B73DC260097002E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Square Pegger";
+			productName = "Square Pegger";
+			productReference = BBF3D7BE1B73DC260097002E /* Square Pegger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBF3D7D61B73DC260097002E /* Square PeggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF3D7E41B73DC260097002E /* Build configuration list for PBXNativeTarget "Square PeggerTests" */;
+			buildPhases = (
+				BBF3D7D31B73DC260097002E /* Sources */,
+				BBF3D7D41B73DC260097002E /* Frameworks */,
+				BBF3D7D51B73DC260097002E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBF3D7D91B73DC260097002E /* PBXTargetDependency */,
+			);
+			name = "Square PeggerTests";
+			productName = "Square PeggerTests";
+			productReference = BBF3D7D71B73DC260097002E /* Square PeggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF3D7B61B73DC260097002E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "David Wagner";
+				TargetAttributes = {
+					BBF3D7BD1B73DC260097002E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BBF3D7D61B73DC260097002E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BBF3D7BD1B73DC260097002E;
+					};
+				};
+			};
+			buildConfigurationList = BBF3D7B91B73DC260097002E /* Build configuration list for PBXProject "Square Pegger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF3D7B51B73DC260097002E;
+			productRefGroup = BBF3D7BF1B73DC260097002E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF3D7BD1B73DC260097002E /* Square Pegger */,
+				BBF3D7D61B73DC260097002E /* Square PeggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF3D7BC1B73DC260097002E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3D7CD1B73DC260097002E /* Main.storyboard in Resources */,
+				BBF3D7D21B73DC260097002E /* LaunchScreen.xib in Resources */,
+				BBF3D7CF1B73DC260097002E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3D7D51B73DC260097002E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF3D7BA1B73DC260097002E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3D7CA1B73DC260097002E /* ViewController.m in Sources */,
+				BBF3D7C71B73DC260097002E /* AppDelegate.m in Sources */,
+				BBF3D7C41B73DC260097002E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3D7D31B73DC260097002E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3D7DE1B73DC260097002E /* Square_PeggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBF3D7D91B73DC260097002E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBF3D7BD1B73DC260097002E /* Square Pegger */;
+			targetProxy = BBF3D7D81B73DC260097002E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBF3D7CB1B73DC260097002E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF3D7CC1B73DC260097002E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBF3D7D01B73DC260097002E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF3D7D11B73DC260097002E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF3D7DF1B73DC260097002E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF3D7E01B73DC260097002E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF3D7E21B73DC260097002E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Square Pegger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBF3D7E31B73DC260097002E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Square Pegger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBF3D7E51B73DC260097002E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Square PeggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square Pegger.app/Square Pegger";
+			};
+			name = Debug;
+		};
+		BBF3D7E61B73DC260097002E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Square PeggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square Pegger.app/Square Pegger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF3D7B91B73DC260097002E /* Build configuration list for PBXProject "Square Pegger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3D7DF1B73DC260097002E /* Debug */,
+				BBF3D7E01B73DC260097002E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF3D7E11B73DC260097002E /* Build configuration list for PBXNativeTarget "Square Pegger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3D7E21B73DC260097002E /* Debug */,
+				BBF3D7E31B73DC260097002E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBF3D7E41B73DC260097002E /* Build configuration list for PBXNativeTarget "Square PeggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3D7E51B73DC260097002E /* Debug */,
+				BBF3D7E61B73DC260097002E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF3D7B61B73DC260097002E /* Project object */;
+}
